@@ -17,5 +17,6 @@ public class RectangleAksi {
         r1.tinggi = 2;
         
         r1.cetakInfo();
+        System.out.println("Luas ractangle = "+r1.hitungLuas());
     }
 }

@@ -21,4 +21,9 @@ public class Rectangle {
         System.out.println("Tinggi : "+tinggi);
         System.out.println("======================");
     }
+    double hitungLuas(){
+        double luas;
+        luas=panjang*lebar*tinggi;
+        return luas;
+    }
 }
