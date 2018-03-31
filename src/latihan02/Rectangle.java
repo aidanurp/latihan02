@@ -13,6 +13,12 @@ public class Rectangle {
     double panjang;
     double lebar;
     double tinggi;
+
+    public Rectangle() {
+        panjang=3;
+        lebar=2;
+        tinggi=4;
+    }
     
     void cetakInfo(){
         System.out.println("======================");
