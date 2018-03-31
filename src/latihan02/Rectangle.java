@@ -19,6 +19,12 @@ public class Rectangle {
         lebar=2;
         tinggi=4;
     }
+
+    public Rectangle(double panjang, double lebar, double tinggi) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+        this.tinggi = tinggi;
+    }
     
     void cetakInfo(){
         System.out.println("======================");
